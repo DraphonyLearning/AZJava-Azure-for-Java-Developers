@@ -1,0 +1,38 @@
+# Azure Monitors
+
+In this lab, we will use the HTTP Data Collector API from Azure to add log items into a Log Analytics Workspace.
+
+## Setup Development Environment
+
+### Installing Tools
+* Download & Install [Azul](https://www.azul.com/downloads/azure-only/zulu/?&version=java-8-lts&architecture=x86-64-bit&package=jdk)
+* Download & Install [Maven](https://maven.apache.org/download.cgi)
+* Download & Install [NodeJS](https://nodejs.org/en/download/)
+* Download & Install IDE [IntelliJ](https://www.jetbrains.com/idea/download/#section=windows)
+
+### Configuring Tools
+After the installations,
+1. Make sure that the Maven's binary folder "bin" is added to the Environment variables.
+   On Windows machine, `PATH`.
+2. Make sure that the environment variable `JAVA_HOME` is defined and point to your JDK folder. e.g. `C:\Program Files\Zulu\zulu-8`
+3. Run `mvn -version`. It should return somewhat like this:
+```bash
+Apache Maven 3.6.2 (40f52333136460af0dc0d7232c0dc0bcf0d9e117; 2019-08-27T17:06:16+02:00)
+Maven home: C:\Program Files\Java\apache-maven-3.6.2\bin\..
+Java version: 1.8.0_232, vendor: Azul Systems, Inc., runtime: C:\Program Files\Zulu\zulu-8\jre
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+```
+
+
+## Setup your Azure Resources
+* Go to Azure Portal
+* Create a new Log Analytics Workspace
+* Get Primary Shared Key
+
+## Develop your Java solutions
+* Create a new `Maven` Project in IntelliJ
+  * Use Azul as JDK
+* Use the [Netty HTTP client](
+https://azuresdkdocs.blob.core.windows.net/$web/java/azure-core-http-netty/1.0.0/index.html) to send POST request to your Workspace
+* Check in Azure Monitor, that your requests has been added.
