@@ -11,7 +11,6 @@ In this lab, we will use the HTTP Data Collector API from Azure to add log items
 ### Installing Tools
 * Download & Install [Azul](https://www.azul.com/downloads/azure-only/zulu/?&version=java-8-lts&architecture=x86-64-bit&package=jdk)
 * Download & Install [Maven](https://maven.apache.org/download.cgi)
-* Download & Install [NodeJS](https://nodejs.org/en/download/)
 * Download & Install IDE [IntelliJ](https://www.jetbrains.com/idea/download/#section=windows)
 
 ### Configuring Tools
@@ -37,8 +36,7 @@ OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 ## Develop your Java solutions
 * Create a new `Maven` Project in IntelliJ
   * Use Azul as JDK
-* Use the [Netty HTTP client](
-https://azuresdkdocs.blob.core.windows.net/$web/java/azure-core-http-netty/1.0.0/index.html) to send POST request to your Workspace
+* Use the [Netty HTTP client](https://azuresdkdocs.blob.core.windows.net/$web/java/azure-core-http-netty/1.0.0/index.html) to send POST request to your Workspace
 * Check in Azure Monitor, that your requests has been added.
 
 ### Hints
