@@ -20,7 +20,7 @@ Your solution should support the following features.
     * Delete the SAP after you have acquired the SAS. Use your SAS again. Does it still work?
 3. Enable user to upload files as BlockBlob, AppendBlob and PageBlob 
 4. Decrease the access tier of a blob. (**Do not increase the access tier, this will cause extra charges!**).
-    * You can do this all blob types?
+    * Can you do this all blob types?
 
 ### Bonus Task
 1. Use a [Blob Batch](https://docs.microsoft.com/en-us/rest/api/storageservices/blob-batch) to perform multiple operations.
