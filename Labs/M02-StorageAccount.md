@@ -32,3 +32,4 @@ Your solution should support the following features.
     * [BlobItemProperties](https://azuresdkdocs.blob.core.windows.net/$web/java/azure-storage-blob/12.0.0/index.html) 
 3. [BlobServiceSasSignatureValues](https://azuresdkdocs.blob.core.windows.net/$web/java/azure-storage-blob/12.0.0/index.html)
 4. On Windows machines, you can use the [storage emulator](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-emulator). Not all the features might be supported though.
+5. [azure-storage-blob-batch](https://azuresdkdocs.blob.core.windows.net/$web/java/azure-storage-blob-batch/12.0.0/index.html)
