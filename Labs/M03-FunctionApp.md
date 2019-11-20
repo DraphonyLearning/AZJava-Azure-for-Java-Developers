@@ -57,3 +57,5 @@ Also set up CD for your Azure functions.
 ## Hints
 1. Use `mvn azure-functions:run` to run your azure function locally. You need to build/updating the package before running with `mvn clean package`.
 2. [Java SDK for Storage Account Queue](https://azuresdkdocs.blob.core.windows.net/$web/java/azure-storage-queue/12.0.0/index.html)
+3. [ComputerVisionManager](https://azuresdkdocs.blob.core.windows.net/$web/java/azure-cognitiveservices-computervision/1.1.0-preview.1/index.html)
+4. 
